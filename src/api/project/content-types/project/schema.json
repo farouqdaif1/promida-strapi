@@ -4,18 +4,14 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Project"
+    "displayName": "Project",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Type": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
     "Name": {
       "type": "string",
       "required": true,
@@ -25,17 +21,31 @@
       "type": "richtext"
     },
     "Cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Link": {
       "type": "richtext"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Branding",
+        "Photography",
+        "Social Media",
+        " Strategy",
+        " UI/UX",
+        " Video Production",
+        " Web Development"
+      ],
+      "required": true
     }
   }
 }

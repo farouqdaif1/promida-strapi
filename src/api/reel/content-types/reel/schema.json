@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reels",
+  "info": {
+    "singularName": "reel",
+    "pluralName": "reels",
+    "displayName": "Reel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Link": {
+      "type": "richtext"
+    }
+  }
+}

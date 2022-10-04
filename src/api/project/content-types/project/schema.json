@@ -38,12 +38,10 @@
       "type": "enumeration",
       "enum": [
         "Branding",
-        "Photography",
         "Social Media",
-        " Outdoor",
-        " UI/UX",
-        " Video Production",
-        " Web Development"
+        "Outdoor",
+        "Media Production",
+        "Web Development &  UI/UX"
       ],
       "required": true
     }

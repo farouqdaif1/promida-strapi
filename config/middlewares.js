@@ -1,7 +1,6 @@
 module.exports = [
   'strapi::errors',
   {
-    {
       name: 'strapi::security',
       config: {
         contentSecurityPolicy: {
@@ -13,7 +12,6 @@ module.exports = [
             upgradeInsecureRequests: null,
           },
         },
-      },
     },
   },
   'strapi::cors',
